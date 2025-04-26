@@ -19,10 +19,6 @@ Later, the extension will help users **auto-fill web forms** easily using their 
 
 ai-form-filler/ │ ├── extension/ │ ├── manifest.json │ ├── popup.html │ ├── popup.css │ ├── popup.js │ ├── background.js │ └── assets/ │ └── logo.png │ ├── server/ │ ├── server.js │ ├── package.json │ ├── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## How It Works
@@ -44,15 +40,9 @@ Start your MongoDB server (MongoDB Compass or local installation).
 
 Go inside the server folder:
 
-bash
-Copy
-Edit
 cd server
 Start the backend server:
 
-bash
-Copy
-Edit
 node server.js
 The server runs on http://localhost:3000.
 
